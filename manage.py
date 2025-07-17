@@ -20,3 +20,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# Adicione no final do arquivo
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_HOST = "smtp.gmail.com"  # Ou seu servidor SMTP
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = "seu-email@gmail.com"
+EMAIL_HOST_PASSWORD = "sua-senha-ou-app-password"  # Para Gmail, use App Password
+DEFAULT_FROM_EMAIL = "seu-email@gmail.com"

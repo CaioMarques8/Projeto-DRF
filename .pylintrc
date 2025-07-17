@@ -1,0 +1,23 @@
+[MASTER]
+load-plugins=pylint_django
+ignore=venv,migrations
+ignore-patterns=^migrations/.*\.py$
+
+[MESSAGES CONTROL]
+disable=
+    C0114,  # missing-module-docstring
+    C0115,  # missing-class-docstring
+    C0116,  # missing-function-docstring
+    R0903,  # too-few-public-methods
+    W0221,  # arguments-differ
+    import-outside-toplevel,
+    duplicate-code
+
+[FORMAT]
+max-line-length=120
+
+[TYPECHECK]
+django-settings-module=parking.settings
+
+[DESIGN]
+max-parents=12

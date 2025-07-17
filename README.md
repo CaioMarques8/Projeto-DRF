@@ -4,7 +4,7 @@ O presente projeto é um cenário fictício para um estacionamento rotativo. O s
 
 ## Configuração
 
-Para executar o projeto configure o ambiente virtual Python. 
+Para executar o projeto configure o ambiente virtual Python.
 
 ### Linux
 
